@@ -50,7 +50,7 @@ while True:
        result=None 
     if result is not None:
        print("Result:", result)
- again =input("Do you want to use this app again ? (yes/no):" )
+ again =input("Do you want to use any other tool ? (yes/no):" )
  if again.lower()!= "yes":
        print("Thanks for using the app, Goodbye!")
        break
