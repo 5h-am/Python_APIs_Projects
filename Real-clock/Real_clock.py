@@ -119,7 +119,7 @@ while True:
         dn = datetime.datetime.now()
         ts_of_dn = dn.timestamp()
         diff  = ts_of_dt-ts_of_dn
-        audio_file = "Real-clock\ile_example_WAV_2MG copy.wav"
+        audio_file = "Real-clock\ile_example_WAV_2MG_copy.wav"
         if diff <= 0:
             print("Time has already passed. Enter a future time")
             continue
