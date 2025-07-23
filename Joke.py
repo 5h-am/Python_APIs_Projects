@@ -32,9 +32,9 @@ def category_jokes():
             print(f"\nJoke : {joke.get('value') or 'N/A'}\n")
         
 while True:
-    print("=" * 50)
+    print("=" * 100)
     print("Welcome to Chuck Norris Jokes".center(100))
-    print("=" * 50)
+    print("=" * 100)
     consent = input("\nDo you want a joke?(Yes/No):").lower().strip()
     print()
     if consent == "yes":
